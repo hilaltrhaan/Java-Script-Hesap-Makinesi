@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+*{
+  margin:0;
+  padding: 0;
+  font-size: large;
+}
+body{
+  background-color: #d0c7e7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:100vh;
+}
+#calculator{
+  width: 285px;
+  height: auto;
+  margin: 10px;
+  padding: 5px;
+  background-color: #92908f;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px 5px #7a7877;
+}
+
+
+p{
+font-size: 28px;
+width: 250px;
+height: 35px;
+background-color: #efe4e7;
+float:left;
+border-radius: 3px;
+padding: 10px 10px;
+margin:5px;
+text-align: right;
+overflow-x:auto;
+
+}
+button{
+  width:60px;
+  height: 50px;
+  background-color: #d0afb9;
+  color:  #8e616f;
+  border-radius: 3px;
+  margin:5px 5px 5px 5px;
+  float: left;
+  position:relative;
+  cursor: pointer;
+  line-height: 36px;
+  text-align: center;
+  box-shadow: 3px 3px #7a7877;
+  transition: all 0.2 ease;}
+  
+   #clr{
+    background-color: #d48161;
+    color: white;
+    float: left;
+    box-shadow: 3px 3px #7a7877;
+  }
+  .opr{
+    background-color: #ffff8a;
+    color: black;
+    box-shadow: 3px 3px #7a7877;
+  } 
+  button:hover{
+    background-color: #7c5561;
+    color: white;
+    
+
+  }
+  
+  #clr:hover{
+    background-color: #d0afb9;
+    
+  }
+  #opr{
+    width: 200px;
+    height:50px ;
+    background-color:#d48161 ;
+    color: white;
+  }
+  #opr:hover{
+    background-color:#d0afb9;
+  
+
+  }
+  .clr{
+    background-color:#d48161 ;
+    color: white;
+
+  }
+  .clr:hover{
+    background-color:#d0afb9;
+    
+  }
+
+

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hesap Makinesi</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+<div id="calculator">
+<p id="degisken"></p>
+
+<button class="clr" onclick="eraseNum()"> <i class="fas fa-backspace"></i>
+ 
+
+<button id="clr" onclick="clrr()">C</button>
+<button class="btn" onclick="fonksiyon(0)">0</button>
+<button class="btn" onclick="fonksiyon(1)">1</button>
+<button class="btn" onclick="fonksiyon(2)">2</button>
+<button class="btn" onclick="fonksiyon(3)">3</button>
+<button class="btn" onclick="fonksiyon(4)">4</button>
+<button class="btn" onclick="fonksiyon(5)">5</button>
+<button class="btn" onclick="fonksiyon(6)">6</button>
+<button class="btn" onclick="fonksiyon(7)">7</button>
+<button class="btn" onclick="fonksiyon(8)">8</button>
+<button class="btn" onclick="fonksiyon(9)">9</button>
+<button class="opr"onclick="fonksiyon2('+')">+</button>
+<button class="opr"onclick="fonksiyon2('-')">-</button>
+<button class="opr"onclick="fonksiyon2('*')">*</button>
+<button class="opr"onclick="fonksiyon2('/')">/</button>
+<button class ="opr"onclick="fonksiyon2 ('.')">.</button>
+<button class="opr" id="opr" onclick="hesapla()">=</button>
+
+
+</div>
+  <script src="app.js"></script>
+</body>
+</html>
