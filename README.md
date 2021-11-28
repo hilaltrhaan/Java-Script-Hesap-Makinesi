@@ -1,1 +1,1 @@
-# Java-Script-le-Hesap-Makinesi
+# Java-Script-Hesap-Makinesi
